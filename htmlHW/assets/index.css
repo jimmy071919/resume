@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+article{
+    display: grid;
+    background-color: bisque;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 150px 200px 50px 350px ;
+    margin: 20PX 0 0 0 ;
+    padding: 15px 60px ;
+    border-radius: 20px;
+    
+}
+
+article img{
+    width:300px;
+    grid-area: 1/1/3/2;
+    text-align: center;
+    margin: 20px auto 0px auto;
+}
+
+#name{
+    grid-area: 1/2/2/3;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0 0 0 ;
+}
+
+#intro{
+    grid-area: 2/2/3/3;
+    text-align: center;
+    font-size: 20px ;
+    padding: 20px 0 0 0 ;
+}
+
+#jumplist{
+    grid-area: 4/1/5/3;
+    display: grid;
+    grid-template-columns: 500px 500px ;
+    grid-template-rows: 200px 100px  ;
+}
+
+.jump{
+    border-radius: 20px ;
+    text-align: center;
+    font-size: 20px;
+    width: 400px ;
+    height: 120px ;
+}
+
+.jump a{
+    padding: 50px 0  ;
+    text-decoration: none;
+    font-style: time new roman;
+}
+
+.jump img{
+    width: 50px;
+    text-align: center;
+}
+
+#jumplist #j1{
+    grid-area: 1/1/2/2;
+    background-color: orange;
+
+}
+
+#jumplist #j2{
+    grid-area: 1/2/2/3;
+    background-color: orange;
+}
+
+#jumplist #j3{
+    grid-area: 2/1/3/3;
+    background-color: orange;
+}
