@@ -57,6 +57,10 @@ article img{
     font-style: time new roman;
 }
 
+.jump a:hover{
+    color: bisque;
+}
+
 .jump img{
     width: 50px;
     text-align: center;

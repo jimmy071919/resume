@@ -11,18 +11,31 @@ article{
     border-radius: 20px;
 }
 
-#psychological_skill{
+p{
     font-size: 40px ;
 }
 
 table{
+    background-color: #f4f1e8 ;
     width: 1000px;
-    height: 200px;
-    text-align: left;
+    height: 250px;
+    text-align: center;
+    border-radius: 20px ;
+}
+
+table a{
+    color:#003566;
+    padding: 20px 80px;
+}
+
+a:hover{
+    /* hover是判斷滑鼠有沒有點上去 */
+    background-color: #fbfbfb;
+    color:#226af1;
 }
 
 th{
-    font-size: 20px ;
+    font-size: 25px ;
 }
 
 a{
