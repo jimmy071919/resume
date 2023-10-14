@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+article{
+    background-color: bisque;
+    margin: 20PX 0 0 0 ;
+    padding: 15px 60px ;
+    border-radius: 20px;
+}
+
+#psychological_skill{
+    font-size: 40px ;
+}
+
+table{
+    width: 1000px;
+    height: 200px;
+    text-align: left;
+}
+
+th{
+    font-size: 20px ;
+}
+
+a{
+    text-decoration: none;
+}
